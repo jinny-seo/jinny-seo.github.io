@@ -10,7 +10,7 @@ require("typeface-karla")
 require("typeface-poppins")
 
 export default () => (
-  <MDBContainer>
+  <MDBContainer size="md">
     <TitleHeader />
     <MDBRow>
       <MDBCol md="6">.col-md-6</MDBCol>
