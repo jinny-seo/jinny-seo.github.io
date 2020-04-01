@@ -1,39 +1,25 @@
 import React from "react"
 import { Link } from "gatsby"
-import "bootstrap/dist/css/bootstrap-grid.min.css"
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact"
-import TitleHeader from "../components/titleheader"
-import Footer from "../components/footer"
-import "normalize.css"
 
-import hero1 from "../images/proj-etc/ETC-hero-1.png"
-import hero2 from "../images/proj-etc/ETC-hero-2.png"
-import hero3 from "../images/proj-etc/ETC-hero-3.png"
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap-grid.min.css"
+
+// import Navbar from "../components/navbar.js"
+import Footer from "../components/footer"
 
 require("typeface-karla")
 require("typeface-poppins")
 
 export default () => (
-  //   <MDBContainer size="md">
-  <MDBContainer max-width fluid>
-    <TitleHeader />
-
-    <MDBRow className="no-gutters row-fluid">
-      <MDBCol md="4">
-        <img className="img-hero" src={hero1} alt="ETC hero 1" />
-      </MDBCol>
-      <MDBCol md="4">
-        <img className="img-hero" src={hero2} alt="ETC hero 2" />
-      </MDBCol>
-      <MDBCol md="4">
-        <img className="img-hero" src={hero3} alt="ETC hero 3" />
-      </MDBCol>
-    </MDBRow>
-
-    <MDBRow>
-      <MDBCol md="6">.col-md-6</MDBCol>
-      <MDBCol md="6">.col-md-6</MDBCol>
-    </MDBRow>
+  <div className="container-fluid px-0">
+    <Link to="/">Home</Link>
+    <Link to="/proj-etc/">ETC</Link>
+    <Link to="/resume/">Resume</Link>
+    <Link to="#work">Work</Link>
+    <div style={{ height: `1200px` }}></div>
+    <div id="work" style={{ background: `yellow`, height: `1200px` }}>
+      <h2>Work</h2>
+    </div>
     <Footer />
-  </MDBContainer>
+  </div>
 )
