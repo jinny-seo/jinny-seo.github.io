@@ -1,9 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import "bootstrap/dist/css/bootstrap.min.css"
-import "bootstrap/dist/css/bootstrap-grid.min.css"
-
 // import Navbar from "../components/navbar.js"
 import Footer from "../components/footer"
 
