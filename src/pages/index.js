@@ -8,7 +8,7 @@ require("typeface-karla")
 require("typeface-poppins")
 
 export default () => (
-  <div className="layout-reset container-fluid px-0">
+  <div className="container-fluid px-0">
     <Link to="/">Home</Link>
     <Link to="/proj-etc/">ETC</Link>
     <Link to="/resume/">Resume</Link>
