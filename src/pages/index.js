@@ -15,8 +15,8 @@ export default () => (
     className="pink-div"
     style={{ fontFamily: `Poppins`, fontWeight: `300` }}
   >
-    <Container>
-      <Link to="/contact/">Contact</Link>
+    <Container sm fluid>
+      <Link to="/contact/">blah</Link>
       <TitleHeader />
 
       <p>
