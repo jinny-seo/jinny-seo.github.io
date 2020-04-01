@@ -5,5 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    {
+      resolve: "@mkitio/gatsby-theme-password-protect",
+      options: {
+        password: "jinnyseo", // delete or `undefined` to disable password protection
+      },
+    },
+  ],
 }

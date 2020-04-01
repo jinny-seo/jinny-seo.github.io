@@ -2,6 +2,13 @@
   /* border: 1px dotted red; */
 }
 
+@media (max-width: 575.98px) {
+  .btn-responsive {
+    display: block;
+    width: 100%;
+  }
+}
+
 html {
   background-color: lavenderblush;
 }
@@ -19,6 +26,10 @@ h2 {
   line-height: 2rem;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
+}
+
+p {
+  font-family: "Karla", sans-serif;
 }
 
 .section {
