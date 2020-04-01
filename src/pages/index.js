@@ -15,8 +15,46 @@ export default () => (
     className="pink-div"
     style={{ fontFamily: `Poppins`, fontWeight: `300` }}
   >
-    <Container sm fluid>
+    <Container fluid>
       <Link to="/contact/">blah</Link>
+      <Row>
+        <Col md={1} debug>
+          md=1
+        </Col>
+        <Col md={1} debug>
+          md=1
+        </Col>
+        <Col md={1} debug>
+          md=1
+        </Col>
+        <Col md={1} debug>
+          md=1
+        </Col>
+        <Col md={1} debug>
+          md=1
+        </Col>
+        <Col md={1} debug>
+          md=1
+        </Col>
+        <Col md={1} debug>
+          md=1
+        </Col>
+        <Col md={1} debug>
+          md=1
+        </Col>
+        <Col md={1} debug>
+          md=1
+        </Col>
+        <Col md={1} debug>
+          md=1
+        </Col>
+        <Col md={1} debug>
+          md=1
+        </Col>
+        <Col md={1} debug>
+          md=1
+        </Col>
+      </Row>
       <TitleHeader />
 
       <p>

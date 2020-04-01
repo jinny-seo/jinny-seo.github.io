@@ -4,44 +4,6 @@ import { Row, Col } from "react-grid-system"
 
 export default () => (
   <div>
-    <Row>
-      <Col md={1} debug>
-        md=1
-      </Col>
-      <Col md={1} debug>
-        md=1
-      </Col>
-      <Col md={1} debug>
-        md=1
-      </Col>
-      <Col md={1} debug>
-        md=1
-      </Col>
-      <Col md={1} debug>
-        md=1
-      </Col>
-      <Col md={1} debug>
-        md=1
-      </Col>
-      <Col md={1} debug>
-        md=1
-      </Col>
-      <Col md={1} debug>
-        md=1
-      </Col>
-      <Col md={1} debug>
-        md=1
-      </Col>
-      <Col md={1} debug>
-        md=1
-      </Col>
-      <Col md={1} debug>
-        md=1
-      </Col>
-      <Col md={1} debug>
-        md=1
-      </Col>
-    </Row>
     <Row
       className="section"
       nogutter
