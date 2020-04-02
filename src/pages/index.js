@@ -15,9 +15,10 @@ export default () => (
     <Link to="/resume/">Resume</Link>
     <Link to="#work">Work</Link>
     <div class="content">
-      <div id="blank" style={{ background: `red`, height: `1200px` }}></div>
-      <div id="work" style={{ background: `yellow`, height: `1200px` }}>
+      <div style={{ background: "pink", height: `1200px` }}>asdkfjfa;dsklf</div>
+      <div id="work" style={{ color: "pink", height: `1200px` }}>
         <h2>Work</h2>
+        asdfkj
       </div>
     </div>
     <Footer />
