@@ -13,9 +13,11 @@ export default () => (
     <Link to="/proj-etc/">ETC</Link>
     <Link to="/resume/">Resume</Link>
     <Link to="#work">Work</Link>
-    <div style={{ height: `1200px` }}></div>
-    <div id="work" style={{ background: `yellow`, height: `1200px` }}>
-      <h2>Work</h2>
+    <div class="content">
+      <div id="blank" style={{ background: `red`, height: `1200px` }}></div>
+      <div id="work" style={{ background: `yellow`, height: `1200px` }}>
+        <h2>Work</h2>
+      </div>
     </div>
     <Footer />
   </div>
