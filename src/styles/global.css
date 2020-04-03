@@ -13,46 +13,25 @@ html {
   background-color: white;
 }
 
-.layout-password {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: yellow;
-}
-
-.layout-reset {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: yellow;
-}
-
 h1,
 .h1 {
-  /* color: red; */
-  letter-spacing: 0.05rem;
+  /* letter-spacing: 0.05rem;
   font-size: 2.2rem !important;
   line-height: 2.5rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 700; */
 }
 
 h2,
 .h2 {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem;
   line-height: 2rem !important;
   font-family: "Poppins", sans-serif;
-  font-weight: 200 !important;
+  font-weight: 200 !important; */
 }
 
 p {
-  font-family: "Karla", sans-serif;
-}
-
-.section {
-  margin: 3rem 0;
+  /* font-family: "Karla", sans-serif; */
 }
 
 .img-hero {
@@ -61,4 +40,11 @@ p {
 
 .row-fluid {
   width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .form-fullwidth {
+    display: block;
+    width: 100%;
+  }
 }
