@@ -18,10 +18,10 @@ export default () => (
       <div style={{ backgroundColor: `pink`, height: `1200px` }}>
         asdkfjfa;dsklf
       </div>
-      {/* <div id="work" style={{ color: `pink`, height: `1200px` }}>
+      <div id="work" style={{ color: `pink`, height: `1200px` }}>
         <h2>Work</h2>
         asdfkj
-      </div> */}
+      </div>
       <Footer />
     </Layout>
   </div>
